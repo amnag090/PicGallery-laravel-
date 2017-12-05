@@ -59,6 +59,8 @@ class PhotoController extends Controller
     }
 
     public function details($id){
-        die($id);
+        $photo=DB::table($this->table)->where('id',$id)->first();
+
+        return view('photo/details',compact('photo'));
     }
 }

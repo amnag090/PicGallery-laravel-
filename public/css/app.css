@@ -5,3 +5,10 @@
 .button-upload{
     color: #ffff !important;     
 }
+
+.main-img{
+    display: block;
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+}
